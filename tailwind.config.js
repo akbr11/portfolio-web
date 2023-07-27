@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        // burtons: "burtons",
+        burtons: "burtons",
         poppins: ["Poppins", "sans-serif"],
       },
     },
