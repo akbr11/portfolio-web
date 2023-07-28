@@ -1,8 +1,8 @@
 import Akbar from "./assets/akbar.png";
 import { AiFillGithub, AiFillLinkedin, AiFillInstagram } from "react-icons/ai";
-import Code from "./assets/code.png";
-import Consulting from "./assets/consulting.png";
-import Design from "./assets/design.png";
+import Frontend from "./assets/programming.png";
+import Backend from "./assets/software-development.png";
+import OS from "./assets/operational-system.png";
 import "./App.css";
 
 function App() {
@@ -31,11 +31,10 @@ function App() {
               Web Developer
             </h5>
             <p className="text-md py-5 leading-8 text-gray-200 max-w-xl mx-auto md:text-xl">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam
-              dolore nihil sequi voluptates veniam sapiente.
+              I'm ready to collaborate and to turn Ideas into Reality.
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-400">
-              <a href="">
+              <a href="https://github.com/akbr11">
                 <AiFillGithub />
               </a>
               <a href="">
@@ -50,68 +49,74 @@ function App() {
             </div>
           </div>
         </section>
+
         <div>
-          <div>
-            <h3 className="text-3xl py-1 text-white">Services I offer</h3>
-            <p className="text-md py-2 leading-8 text-gray-200">
-              Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
-              <span className="text-teal-500"> agencies </span>
-              consulted for <span className="text-teal-500">startups </span>
-              and collaborated with talanted people to create digital products
-              for both business and consumer use.
-            </p>
-            <p className="text-md py-2 leading-8 text-gray-200">
-              I offer from a wide range of services, including brand design,
-              programming and teaching.
-            </p>
+          <h3 className="text-3xl py-1 text-white">About Me</h3>
+          <p className="text-md py-2 leading-8 text-gray-200">
+            Hi, I'm{" "}
+            <span className="text-teal-500">Muhammad Akbar Nugraha</span>. I'm
+            often called Akbar or Abay. I'm the third child of 4 siblings. I'm
+            currently focus on developing myself to become a Website Developer.
+            The language and tools that i often use are Codeigniter 4 in the
+            application development process. Currently what I'm learning is
+            React JS and Tailwind on the Frontend.
+            <br />
+            <br />
+            I'm currently completing undergraduate studies at{" "}
+            <a href="https://uniku.ac.id/" className="text-teal-500">
+              Kuningan University
+            </a>
+            . but I also work at{" "}
+            <a href="https://gurungaji.com/" className="text-teal-500">
+              PT. Bakti Indonesia Mengaji
+            </a>{" "}
+            as a Junior Web Developer.
+          </p>
+          <br />
+        </div>
+
+        <h3 className="text-3xl py-1 text-white">Language & Tools</h3>
+        <div className="lg:flex gap-10">
+          <div className="shadow-lg p-8 rounded-xl my-10 bg-slate-100 flex-1">
+            <div className="justify-center items-center text-center flex w-full ">
+              <img src={Frontend} width={200} height={200} />
+            </div>
+            <h3 className="text-lg font-medium pt-8 pb-2  ">
+              Frontend Development
+            </h3>
+            <h4 className="py-4 text-teal-600">Language used</h4>
+            <p className="text-gray-800 py-1">HTML</p>
+            <p className="text-gray-800 py-1">Bootstrap</p>
+            <p className="text-gray-800 py-1">Tailwind</p>
+            <p className="text-gray-800 py-1">Javascript</p>
+            <p className="text-gray-800 py-1">React JS</p>
           </div>
-          <div className="lg:flex gap-10">
-            <div className="text-center shadow-lg p-10 rounded-xl my-10  bg-white flex-1">
-              <img src={Design} width={100} height={100} />
-              <h3 className="text-lg font-medium pt-8 pb-2  ">
-                Beautiful Designs
-              </h3>
-              <p className="py-2">
-                Creating elegant designs suited for your needs following core
-                design theory.
-              </p>
-              <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
+          <div className="shadow-lg p-8 rounded-xl my-10 bg-slate-100 flex-1">
+            <div className="justify-center items-center text-center flex w-full ">
+              <img src={Backend} width={200} height={200} />
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 bg-white flex-1">
-              <img src={Code} width={100} height={100} />
-              <h3 className="text-lg font-medium pt-8 pb-2 ">
-                Code your dream project
-              </h3>
-              <p className="py-2">
-                Do you have an idea for your next great website? Let's make it a
-                reality.
-              </p>
-              <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
+            <h3 className="text-lg font-medium pt-8 pb-2 ">
+              Backend Development
+            </h3>
+            <h4 className="py-4 text-teal-600">Language used</h4>
+            <p className="text-gray-800 py-1">PHP</p>
+            <p className="text-gray-800 py-1">CodeIgniter</p>
+          </div>
+          <div className="shadow-lg p-8 rounded-xl my-10 bg-slate-100 flex-1">
+            <div className="justify-center items-center text-center flex w-full ">
+              <img src={OS} width={200} height={200} />
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 bg-white flex-1">
-              <img src={Consulting} width={100} height={100} />
-              <h3 className="text-lg font-medium pt-8 pb-2 ">Consulting</h3>
-              <p className="py-2">
-                Are you interested in feedback for your current project? I can
-                give you tips and tricks to level it up.
-              </p>
-              <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
-            </div>
+            <h3 className="text-lg font-medium pt-8 pb-2 ">Operation System</h3>
+            <h4 className="py-4 text-teal-600">OS used</h4>
+            <p className="text-gray-800 py-1">Linux (Ubuntu)</p>
           </div>
         </div>
+
+        <section className="py-10">
+          <div>
+            <h3 className="text-3xl py-1 text-white">Portfolio</h3>
+          </div>
+        </section>
       </main>
     </>
   );
