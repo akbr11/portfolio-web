@@ -11,7 +11,7 @@ function App() {
       <main className="md:px-20 lg:px-40">
         <section className="min-h-screen">
           <nav className="py-5 mb-5 flex justify-between text-white">
-            <h1 className="font-burtons text-xl">makra</h1>
+            <h1 className="font-burtons text-xl">akbar</h1>
             <ul className="flex items-center">
               <li>
                 <a
