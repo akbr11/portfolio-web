@@ -1,5 +1,5 @@
 {
-  "homepage": "https://akbr11.github.io/portfolio-web",
+  "homepage": "http://akbr11.github.io/portfolio-web",
   "name": "portfolio-web",
   "private": true,
   "version": "0.0.0",
@@ -7,10 +7,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview --port 8080"
   },
   "dependencies": {
     "next": "^13.4.12",
