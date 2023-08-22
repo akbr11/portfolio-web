@@ -13,34 +13,34 @@ function Portfolio() {
     <div className="py-10">
       <h3 className="text-3xl py-1 text-white">Portfolio</h3>
 
-      <div className="flex align-middle justify-between right-0 top-5">
-        <button onClick={scrollLeft} className="p-2 m-2 rounded-full bg-white">
-          <FiChevronLeft />
-        </button>
-        <button onClick={scrollRight} className="p-2 m-2 rounded-full bg-white">
-          <FiChevronRight />
-        </button>
-      </div>
-      <div
-        id="content"
-        className="carousel flex items-center gap-10 overflow-x-hidden scroll-smooth  scrollbar-hide"
-      >
-        <div>
-          <Card />
-        </div>
-        <div>
-          <Card />
-        </div>
-        <div>
-          <Card />
-        </div>
-        <div>
-          <Card />
-        </div>
-        <div>
-          <Card />
+      <button onClick={scrollLeft} className="p-2 m-2 rounded-full bg-white">
+        <FiChevronLeft />
+      </button>
+      <div className="flex align-middle justify-between ">
+        <div
+          id="content"
+          className="carousel flex items-center gap-10 overflow-x-hidden scroll-smooth  scrollbar-hide"
+        >
+          <div>
+            <Card />
+          </div>
+          <div>
+            <Card />
+          </div>
+          <div>
+            <Card />
+          </div>
+          <div>
+            <Card />
+          </div>
+          <div>
+            <Card />
+          </div>
         </div>
       </div>
+      <button onClick={scrollRight} className="p-2 m-2 rounded-full bg-white">
+        <FiChevronRight />
+      </button>
     </div>
   );
 }
